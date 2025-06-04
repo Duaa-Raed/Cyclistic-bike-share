@@ -73,11 +73,11 @@ merged_df.info()
 
 •	 Total Trips reached 6 million rides in 2023, indicating a strong demand for bike-share services throughout the year.
 
-•	 Electric bikes were the most preferred type, showing users' inclination toward faster and more convenient transportation.
+•	 Electric bikes were the most preferred type, showing users inclination toward faster and more convenient transportation.
 
-•	 Members accounted for the majority of rides (64%), suggesting strong retention and engagement among subscribers.
+•	 Members accounted for the majority of rides **(64%)**, suggesting strong retention and engagement among subscribers.
 
-•	 Peak usage hour was at 17:00 (5 PM), aligning with the end of typical work hours and commute patterns.
+•	 Peak usage hour was at **17:00 (5 PM)**, aligning with the end of typical work hours and commute patterns.
 
 •	 Saturday was the busiest day of the week, showing that weekends attract the highest ridership.
 
@@ -135,7 +135,7 @@ Casual riders contribute significantly during weekends and peak hours. Offering 
 
 •	Focus on Peak Hours for Promotions
 
-The majority of trips occur between 5 PM and 6 PM, indicating strong after-work usage. Marketing campaigns or app-based incentives during these hours could boost engagement.
+The majority of trips occur between *5 PM and 6 PM*, indicating strong after-work usage. Marketing campaigns or app-based incentives during these hours could boost engagement.
 
 •	Optimize Bike Distribution During Popular Times
 
@@ -143,7 +143,7 @@ The highest activity occurs in July and on Saturdays, especially in Quarter 3. B
 
 •	Increase Bike Availability for Most Popular Bike Types
 
-The most used bike type is [electric_bike]. Ensuring sufficient availability and maintenance of this type will improve customer satisfaction.
+The most used bike type is *electric_bike*. Ensuring sufficient availability and maintenance of this type will improve customer satisfaction.
 
 •	Enhance User Experience Through App Insights
 
