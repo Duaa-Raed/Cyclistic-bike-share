@@ -35,10 +35,37 @@ merged_df = pd.concat(list_df, ignore_index=True)
 
 
 •	Converted date/time fields to proper datetime format
+```python
+date_cols = ['started_at', 'ended_at']
+
+for col in date_cols:
+    merged_df[col] = pd.to_datetime(merged_df[col], errors='coerce')
+ ```
 
 •	Calculated new fields: ride_length, day_of_week, month
+```python
+merged_df['hour'] = merged_df['started_at'].dt.hour
+merged_df['month'] = merged_df['started_at'].dt.month_name()
+merged_df['day_of_week'] = merged_df['started_at'].dt.day_name()
+merged_df['quarter'] = merged_df['started_at'].dt.quarter.map({1: 'Q1', 2: 'Q2', 3: 'Q3', 4: 'Q4'})
+```
 
-•	Removed null values and filtered out extreme values (e.g. ride_length < 0 or > 24 hours)
+•	To enable time-based analysis, ride hours were categorized into periods of the day (Morning, Afternoon, Evening, Night) based on the start hour of each ride.
+```python
+
+def get_day_period(hour):
+    if 5 <= hour < 12:
+        return 'Morning'
+    elif 12 <= hour < 17:
+        return 'Afternoon'
+    elif 17 <= hour < 21:
+        return 'Evening'
+    else:
+        return 'Night'
+
+merged_df['day_period'] = merged_df['hour'].apply(get_day_period)
+merged_df.info()
+```
 
 •	Ensured clean and reliable data for analysis
 
