@@ -30,7 +30,8 @@ for file in all_files:
     df = pd.read_csv(file)
     list_df.append(df)
 
-merged_df = pd.concat(list_df, ignore_index=True) ```
+merged_df = pd.concat(list_df, ignore_index=True)
+ ```
 
 
 •	Converted date/time fields to proper datetime format
