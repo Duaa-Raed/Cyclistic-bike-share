@@ -18,6 +18,20 @@ Data was obtained from Divvy’s public bike-share datasets provided by the City
 **Data Cleaning and Processing**
 
 •	Merged 12 CSV files into one dataset (over 6.8 million rows)
+```python
+all_files = glob.glob(path + "/*.csv")
+
+print(f" عدد ملفات CSV: {len(all_files)}")
+
+#  قراءة ودمج الملفات في DataFrame واحد
+list_df = []
+for file in all_files:
+    print(f" جاري قراءة: {file}")
+    df = pd.read_csv(file)
+    list_df.append(df)
+
+merged_df = pd.concat(list_df, ignore_index=True)
+
 
 •	Converted date/time fields to proper datetime format
 
