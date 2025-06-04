@@ -27,7 +27,7 @@ Data was obtained from Divvy’s public bike-share datasets provided by the City
 
 •	Ensured clean and reliable data for analysis
 
-*Analysis Highlights*
+**Analysis Highlights**
 
 •	 Total Trips reached 6 million rides in 2023, indicating a strong demand for bike-share services throughout the year.
 
@@ -43,7 +43,7 @@ Data was obtained from Divvy’s public bike-share datasets provided by the City
 
 These trends highlight both commuter behavior and seasonal demand, which can help optimize fleet distribution, membership campaigns, and maintenance scheduling.
 
-*Visuals used in the Power BI dashboard:*
+**Visuals used in the Power BI dashboard:**
 
 •	Card Visuals (Left panel):
 
