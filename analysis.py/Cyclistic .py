@@ -2,7 +2,6 @@ import pandas as pd
 import glob
 
 #  تحديد مسار ملفات CSV
-path = r"C:/Users/duaar/OneDrive/Desktop/Cyclistic bike-share"
 all_files = glob.glob(path + "/*.csv")
 
 print(f" عدد ملفات CSV: {len(all_files)}")
@@ -52,8 +51,6 @@ def get_day_period(hour):
 merged_df['day_period'] = merged_df['hour'].apply(get_day_period)
 merged_df.info()
 
-# حفظ الملف
-#merged_df.to_csv("C:/Users/duaar/OneDrive/Desktop/cleaned_with_split_date_time.csv", index=False)
-#print(" تم حفظ الملف كاملًا بصيغة CSV باسم cleaned_cyclistic_full_data.csv")
+
 
 
