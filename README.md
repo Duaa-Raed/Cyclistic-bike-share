@@ -45,7 +45,7 @@ These trends highlight both commuter behavior and seasonal demand, which can hel
 
 **Visuals used in the Power BI dashboard:**
 
-•	Card Visuals (Left panel):
+•	Card Visuals :
 
 •	Used to display key performance indicators (KPIs) such as:
 
@@ -61,25 +61,25 @@ These trends highlight both commuter behavior and seasonal demand, which can hel
 
 •	Top Month
 
-•	Stacked Column Chart (Top center):
+•	Stacked Column Chart :
 
 •	Visualizes the monthly and quarterly ride distribution.
 
 •	Shows ride volume for both casual and member users per month.
 
-•	Bar Chart (Horizontal) (Left-center):
+•	Bar Chart :
 
 •	Compares rider types (casual/member) across different bike types.
 
-•	Line Chart (Right center):
+•	Line Chart :
 
 •	Displays rides by hour, split by rider type to identify peak usage hours.
 
-•	Donut Chart (Bottom-left):
+•	Donut Chart :
 
 •	Shows the proportion of rides between casual and member users.
 
-•	Clustered Column Chart (Bottom-right):
+•	Clustered Column Chart :
 
 •	Visualizes rides by day of the week for both casual and member users.
 
