@@ -13,6 +13,7 @@ Data was obtained from Divvy’s public bike-share datasets provided by the City
 **Tools Used**
 
 •	Python (pandas) for data cleaning and exploration
+
 •	Power BI for data visualization and dashboard creation
 
 **Data Cleaning and Processing**
