@@ -136,7 +136,7 @@ Casual riders contribute significantly during weekends and peak hours. Offering 
 
 •	Focus on Peak Hours for Promotions
 
-The majority of trips occur between *5 PM and 6 PM*, indicating strong after-work usage. Marketing campaigns or app-based incentives during these hours could boost engagement.
+The majority of trips occur between **5 PM and 6 PM**, indicating strong after-work usage. Marketing campaigns or app-based incentives during these hours could boost engagement.
 
 •	Optimize Bike Distribution During Popular Times
 
@@ -144,7 +144,7 @@ The highest activity occurs in July and on Saturdays, especially in Quarter 3. B
 
 •	Increase Bike Availability for Most Popular Bike Types
 
-The most used bike type is *electric_bike*. Ensuring sufficient availability and maintenance of this type will improve customer satisfaction.
+The most used bike type is **electric_bike**. Ensuring sufficient availability and maintenance of this type will improve customer satisfaction.
 
 •	Enhance User Experience Through App Insights
 
