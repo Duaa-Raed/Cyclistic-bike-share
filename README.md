@@ -1,6 +1,6 @@
 # Cyclistic-bike-share Case Study
  
-By: Duaa Raed
+*By: Duaa Raed*
 
 **Business Task**
 
@@ -17,6 +17,8 @@ Data was obtained from Divvy’s public bike-share datasets provided by the City
 •	Power BI for data visualization and dashboard creation
 
 **Data Cleaning and Processing**
+
+
 
 •	Merged 12 CSV files into one dataset (over 6.8 million rows)
 ```python
